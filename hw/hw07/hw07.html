@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title> JoJo Bakery</title>
+    <style>
+        body {
+            background-image: url('../hw06/img/background.jpg');
+            font-family: 'Jua', sans-serif;
+        }
+
+        header a:link {
+            font-size: 70px;
+            text-decoration: none;
+            text-shadow: 3px 3px 3px #a34422;
+            color: #EEAB73;
+        }
+
+        header a:visited {
+            font-size: 70px;
+            text-decoration: none;
+            text-shadow: 3px 3px 3px #a34422;
+            color: #EEAB73;
+        }
+
+        header h1 {
+            text-align: center;
+            border: 10px dashed #EEAB73;
+            background-color: rgba(235,211,176,0.5);
+            padding: 40px;
+            margin-left: 20px;
+            margin-right: 20px;
+            width: 1120px;
+        }
+        
+        
+
+        a:visited {
+            text-decoration: none;
+            color:#EEAB73;
+        }
+
+        a:link {
+            text-decoration: none;
+            color:#EEAB73;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        #iframe {
+            margin-left: 220px;
+            width:1010px;
+            border: 3px solid #EEAB73;
+            background-color: rgba(235,211,176,0.5);
+        }
+
+        #left {
+            float: left;
+        }
+
+        #login {
+            border: 3px solid #EEAB73;
+            background-color: rgba(235,211,176,0.5);
+            margin-left: 20px;
+            padding:0px 10px 25px 15px;
+            width: 150px;
+        }
+
+        #login h3 {
+            font-size: 30px;
+            color: #EEAB73;
+            text-shadow: 2px 2px 2px #a34422;
+            margin-top: 11px;
+            margin-bottom:0px;
+        }
+
+        #menu {
+            text-align: center;
+            border: 3px solid #EEAB73;
+            width:135px;
+            margin-left:18px;
+            margin-right: 0px;
+            padding:0px 21px;
+            list-style: none;
+            background-color: rgba(235,211,176,0.5);
+            text-shadow: 2px 2px 2px #c7400f;
+        }
+
+        #menu li{
+            font-size: 30px;
+            margin:5px;
+            padding:0px;
+        }
+
+        audio {
+                color: #EEAB73;
+                width: 190px;
+                height:30px;
+                padding-left: 13px;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="">JoJo Bakery</a></h1>
+    </header>
+    <aside>
+        <nav>
+        <div id="left">
+            <form id="login">
+                <div><h3>Login</h3></div>
+                <p><input type="text" name="ID" size="15" placeholder="아이디" required></p>
+                <p><input type="password" name="psw" size="15" placeholder="비밀번호" required></p>
+                <input type="submit" value="로그인">
+                <input type="reset" value="다시작성">
+            </form>
+            <ol id="menu">
+                <li><a href="1.html" target="if_a">BREAD</a></li><br/>
+                <li><a href="2.html" target="if_a">CAKE</a></li><br/>
+                <li><a href="3.html" target="if_a">DESSERT</a></li><br/>
+                <li><a href="4.html" target="if_a">COFFEE</a></li><br/>
+                <li><a href="5.html" target="if_a">DRINKS</li><br/>
+                <li><a href="6.html" target="if_a">Q&A</a></li><br/>
+            </ol>
+            <audio src="../hw04/audio/fall_music.mp3" 
+            controls></audio>
+        </div>
+        </nav>
+        <nav>
+        </nav>
+    </aside>
+    <main>
+        <article id="iframe">
+            <iframe src="text.html" width="1000px" height="1100px" name="if_a" scrolling="no"></iframe>
+            </iframe>
+        </article>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
